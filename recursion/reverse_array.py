@@ -18,8 +18,10 @@ def main():
 main()
 '''
 #Using parameterised recursion
-#Taking parameters l=left most index & r=right most index
-def reverse_array(input_array,length,l,r):
+#passing parameters l=left most index & r=right most index
+#passing length as parameter is not necessary, helpful for efficiency and flexibility
+
+def reverse_array(input_array,length,l,r): 
 
     #Base case
     if (l >= r):
