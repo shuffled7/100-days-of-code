@@ -40,3 +40,20 @@ def main():
     
 main()
 '''
+'''
+# A more Pythonic way
+
+def reverse_array(input_array):
+    
+    reversed_array = input_array[::-1] # Reverse the list using slicing
+
+    return reversed_array
+
+def main():
+    length = int(input("Enter the length of array: "))
+    print("Enter values into array:")
+    input_array = [input(f"{i+1} of {length}: ") for i in range(length)]
+    print("Reversed Array:",reverse_array(input_array))
+
+main()
+'''
