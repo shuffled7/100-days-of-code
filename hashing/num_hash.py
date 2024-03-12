@@ -7,12 +7,12 @@ def main():
     default_value = 0 
     hash = [default_value] * 50     # initialize hash array of required length to 0
     for i in range(num):
-        hash[array[i]] += 1         # iterate over input array's values and increment its equivalent hash array indexes
+        hash[array[i]] += 1         # iterate over input array's values and increment its equivalent hash array index
 
 
     query_amount = int(input("Enter the amount of numbers to check: ")) # enter amount of queries
     while (query_amount > 0):
         query_amount -= 1
-        query_numbers = int(input("Enter the numbers to be checked:"))  # enter value of query
-        print(hash[query_numbers])
+        query_number = int(input("Enter the numbers to be checked:"))  # enter value of query
+        print(hash[query_number])
 main()
