@@ -1,5 +1,5 @@
 # insertion sort algorithm to sort array in ascending order
-# insertion sort: takes an element and swaps till its placed in its correct order
+# insertion sort: takes an element and swaps with left index till its placed in its correct order
 
 def insertion_sort(array,length):       # consider length 5
 
