@@ -1,0 +1,1 @@
+# merge sort algorithm to sort asrray in ascending order
